@@ -16,7 +16,7 @@ int main() {
         } else if (multiploDe5) {
             cout << "Buzz";
         } else {
-            std::cout << i;
+            cout << i;
         }
 
         // Imprimir um espaço após cada número ou palavra

@@ -13,7 +13,7 @@ int main() {
     // Loop para gerar e imprimir o padrão
     for (int linha = 1; linha <= altura; ++linha) {
         for (int coluna = 1; coluna <= linha; ++coluna) {
-            std::cout << caractere;
+            cout << caractere;
             ++caractere; // Avança para o próximo caractere
         }
         cout << endl;

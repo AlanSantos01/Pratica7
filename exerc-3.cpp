@@ -16,7 +16,7 @@ int main() {
     cout << "Divisores de " << numero << ": ";
     for (int i = 1; i <= numero; ++i) {
         if (numero % i == 0) {
-            std::cout << i << " ";
+            cout << i << " ";
         }
     }
     cout << endl;

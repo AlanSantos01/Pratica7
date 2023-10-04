@@ -16,13 +16,13 @@ int main() {
 
     // Imprime os primeiros números da sequência de Fibonacci até o número fornecido
     while (proximo <= numero) {
-        std::cout << proximo << " ";
+        cout << proximo << " ";
         proximo = anterior + atual;
         anterior = atual;
         atual = proximo;
     }
 
-    std::cout << std::endl;
+    cout << endl;
 
     return 0;
 }
